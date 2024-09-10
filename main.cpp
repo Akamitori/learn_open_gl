@@ -1,7 +1,10 @@
-﻿#include <iostream>
+﻿
+
+
+import hallo_window;
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+   return hallo_window_sample::execute();
 }
+
